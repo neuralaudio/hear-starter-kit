@@ -17,11 +17,11 @@ setup(
         "Source Code": "https://github.com/hearbenchmark/hear-validator",
     },
     packages=find_packages(),
-    python_requires=">=3.6, <3.9",
+    python_requires=">=3.6",
     entry_points={
         "console_scripts": ["hear-validator=hearvalidator.validate:main"],
     },
-    install_requires=["tensorflow>=2.0", "torch>=1.7"],
+    install_requires=["torch>=1.7", "numpy>=2.0"],
     extras_require={
         # Developer requirements
         "dev": [
