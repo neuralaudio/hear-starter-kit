@@ -21,7 +21,7 @@ setup(
     entry_points={
         "console_scripts": ["hear-validator=hearvalidator.validate:main"],
     },
-    install_requires=["torch>=1.7", "numpy>=2.0"],
+    install_requires=["torch>=1.7", "numpy>=1.6"],
     extras_require={
         # Developer requirements
         "dev": [
